@@ -21,6 +21,12 @@ const fetchApi = (api) => {
             followers = data.followers;
             showData(imageUrl, followers);
         }
+        else {
+            let errorDiv = document.querySelector('.error');
+            errorDiv.style.display = "block";
+            let errorMessage = document.querySelector('.error-message');
+            errorMessage.innerHTML = "Please enter a valid username!";
+        }
     }
     xhr.send();
 }
