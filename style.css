@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.name-label {
+    color: #00008B;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.input-name input {
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.card-appear {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-container {
+    display: none;
+}
